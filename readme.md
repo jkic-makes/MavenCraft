@@ -1,6 +1,17 @@
 # MavenCraft
 
 A 2D voxel sandbox prototype written in Java using Swing/AWT and managed with Apache Maven. Featuring a custom launcher UI, world creation engine supporting Survival and Creative game modes, 60 FPS physics with gravity, collision detection, and block placement mechanics.
+---
+## How to compile and run
+First run command:
+```powershell
+mvn clean package
+```
+And then wait and run:
+```powershell
+java -jar target/minecraft-java-clone-1.0-SNAPSHOT.jar
+```
+the java command is only if you want to run the game i will keep yall updated
 
 ---
 
